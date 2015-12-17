@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEB7B2F1C1ABB62009E997C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB7B2E1C1ABB62009E997C /* AppDelegate.swift */; };
+		BBEB7B311C1ABB62009E997C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB7B301C1ABB62009E997C /* ViewController.swift */; };
+		BBEB7B341C1ABB62009E997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB7B321C1ABB62009E997C /* Main.storyboard */; };
+		BBEB7B361C1ABB62009E997C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEB7B351C1ABB62009E997C /* Assets.xcassets */; };
+		BBEB7B391C1ABB62009E997C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB7B371C1ABB62009E997C /* LaunchScreen.storyboard */; };
+		BBEB7B441C1ABB62009E997C /* enum_swift_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB7B431C1ABB62009E997C /* enum_swift_demoTests.swift */; };
+		BBEB7B4F1C1ABB62009E997C /* enum_swift_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB7B4E1C1ABB62009E997C /* enum_swift_demoUITests.swift */; };
+		BBEB7B5E1C1ABE1D009E997C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB7B5C1C1ABE1D009E997C /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBEB7B5F1C1ABE1D009E997C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB7B5D1C1ABE1D009E997C /* DetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEB7B401C1ABB62009E997C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB7B231C1ABB62009E997C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB7B2A1C1ABB62009E997C;
+			remoteInfo = "enum-swift-demo";
+		};
+		BBEB7B4B1C1ABB62009E997C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB7B231C1ABB62009E997C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB7B2A1C1ABB62009E997C;
+			remoteInfo = "enum-swift-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBEB7B2B1C1ABB62009E997C /* enum-swift-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "enum-swift-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB7B2E1C1ABB62009E997C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBEB7B301C1ABB62009E997C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBEB7B331C1ABB62009E997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBEB7B351C1ABB62009E997C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEB7B381C1ABB62009E997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBEB7B3A1C1ABB62009E997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB7B3F1C1ABB62009E997C /* enum-swift-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "enum-swift-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB7B431C1ABB62009E997C /* enum_swift_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_swift_demoTests.swift; sourceTree = "<group>"; };
+		BBEB7B451C1ABB62009E997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB7B4A1C1ABB62009E997C /* enum-swift-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "enum-swift-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB7B4E1C1ABB62009E997C /* enum_swift_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum_swift_demoUITests.swift; sourceTree = "<group>"; };
+		BBEB7B501C1ABB62009E997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB7B5C1C1ABE1D009E997C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BBEB7B5D1C1ABE1D009E997C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEB7B281C1ABB62009E997C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB7B3C1C1ABB62009E997C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB7B471C1ABB62009E997C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBEB7B221C1ABB62009E997C = {
+			isa = PBXGroup;
+			children = (
+				BBEB7B2D1C1ABB62009E997C /* enum-swift-demo */,
+				BBEB7B4D1C1ABB62009E997C /* enum-swift-demoUITests */,
+				BBEB7B2C1C1ABB62009E997C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEB7B2C1C1ABB62009E997C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB7B2B1C1ABB62009E997C /* enum-swift-demo.app */,
+				BBEB7B3F1C1ABB62009E997C /* enum-swift-demoTests.xctest */,
+				BBEB7B4A1C1ABB62009E997C /* enum-swift-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEB7B2D1C1ABB62009E997C /* enum-swift-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB7B2E1C1ABB62009E997C /* AppDelegate.swift */,
+				BBEB7B301C1ABB62009E997C /* ViewController.swift */,
+				BBEB7B5C1C1ABE1D009E997C /* DetailViewController.swift */,
+				BBEB7B5D1C1ABE1D009E997C /* DetailViewController.xib */,
+				BBEB7B321C1ABB62009E997C /* Main.storyboard */,
+				BBEB7B351C1ABB62009E997C /* Assets.xcassets */,
+				BBEB7B371C1ABB62009E997C /* LaunchScreen.storyboard */,
+				BBEB7B421C1ABB62009E997C /* enum-swift-demoTests */,
+				BBEB7B3A1C1ABB62009E997C /* Info.plist */,
+			);
+			path = "enum-swift-demo";
+			sourceTree = "<group>";
+		};
+		BBEB7B421C1ABB62009E997C /* enum-swift-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB7B431C1ABB62009E997C /* enum_swift_demoTests.swift */,
+				BBEB7B451C1ABB62009E997C /* Info.plist */,
+			);
+			path = "enum-swift-demoTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		BBEB7B4D1C1ABB62009E997C /* enum-swift-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB7B4E1C1ABB62009E997C /* enum_swift_demoUITests.swift */,
+				BBEB7B501C1ABB62009E997C /* Info.plist */,
+			);
+			path = "enum-swift-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEB7B2A1C1ABB62009E997C /* enum-swift-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB7B531C1ABB62009E997C /* Build configuration list for PBXNativeTarget "enum-swift-demo" */;
+			buildPhases = (
+				BBEB7B271C1ABB62009E997C /* Sources */,
+				BBEB7B281C1ABB62009E997C /* Frameworks */,
+				BBEB7B291C1ABB62009E997C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "enum-swift-demo";
+			productName = "enum-swift-demo";
+			productReference = BBEB7B2B1C1ABB62009E997C /* enum-swift-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEB7B3E1C1ABB62009E997C /* enum-swift-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB7B561C1ABB62009E997C /* Build configuration list for PBXNativeTarget "enum-swift-demoTests" */;
+			buildPhases = (
+				BBEB7B3B1C1ABB62009E997C /* Sources */,
+				BBEB7B3C1C1ABB62009E997C /* Frameworks */,
+				BBEB7B3D1C1ABB62009E997C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB7B411C1ABB62009E997C /* PBXTargetDependency */,
+			);
+			name = "enum-swift-demoTests";
+			productName = "enum-swift-demoTests";
+			productReference = BBEB7B3F1C1ABB62009E997C /* enum-swift-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEB7B491C1ABB62009E997C /* enum-swift-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB7B591C1ABB62009E997C /* Build configuration list for PBXNativeTarget "enum-swift-demoUITests" */;
+			buildPhases = (
+				BBEB7B461C1ABB62009E997C /* Sources */,
+				BBEB7B471C1ABB62009E997C /* Frameworks */,
+				BBEB7B481C1ABB62009E997C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB7B4C1C1ABB62009E997C /* PBXTargetDependency */,
+			);
+			name = "enum-swift-demoUITests";
+			productName = "enum-swift-demoUITests";
+			productReference = BBEB7B4A1C1ABB62009E997C /* enum-swift-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEB7B231C1ABB62009E997C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = baofoo;
+				TargetAttributes = {
+					BBEB7B2A1C1ABB62009E997C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BBEB7B3E1C1ABB62009E997C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BBEB7B2A1C1ABB62009E997C;
+					};
+					BBEB7B491C1ABB62009E997C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BBEB7B2A1C1ABB62009E997C;
+					};
+				};
+			};
+			buildConfigurationList = BBEB7B261C1ABB62009E997C /* Build configuration list for PBXProject "enum-swift-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEB7B221C1ABB62009E997C;
+			productRefGroup = BBEB7B2C1C1ABB62009E997C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEB7B2A1C1ABB62009E997C /* enum-swift-demo */,
+				BBEB7B3E1C1ABB62009E997C /* enum-swift-demoTests */,
+				BBEB7B491C1ABB62009E997C /* enum-swift-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEB7B291C1ABB62009E997C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB7B391C1ABB62009E997C /* LaunchScreen.storyboard in Resources */,
+				BBEB7B361C1ABB62009E997C /* Assets.xcassets in Resources */,
+				BBEB7B341C1ABB62009E997C /* Main.storyboard in Resources */,
+				BBEB7B5F1C1ABE1D009E997C /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB7B3D1C1ABB62009E997C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB7B481C1ABB62009E997C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEB7B271C1ABB62009E997C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB7B5E1C1ABE1D009E997C /* DetailViewController.swift in Sources */,
+				BBEB7B311C1ABB62009E997C /* ViewController.swift in Sources */,
+				BBEB7B2F1C1ABB62009E997C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB7B3B1C1ABB62009E997C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB7B441C1ABB62009E997C /* enum_swift_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB7B461C1ABB62009E997C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB7B4F1C1ABB62009E997C /* enum_swift_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEB7B411C1ABB62009E997C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB7B2A1C1ABB62009E997C /* enum-swift-demo */;
+			targetProxy = BBEB7B401C1ABB62009E997C /* PBXContainerItemProxy */;
+		};
+		BBEB7B4C1C1ABB62009E997C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB7B2A1C1ABB62009E997C /* enum-swift-demo */;
+			targetProxy = BBEB7B4B1C1ABB62009E997C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBEB7B321C1ABB62009E997C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB7B331C1ABB62009E997C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBEB7B371C1ABB62009E997C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB7B381C1ABB62009E997C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBEB7B511C1ABB62009E997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBEB7B521C1ABB62009E997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBEB7B541C1ABB62009E997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "enum-swift-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.enum-swift-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBEB7B551C1ABB62009E997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "enum-swift-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.enum-swift-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBEB7B571C1ABB62009E997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "enum-swift-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.enum-swift-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/enum-swift-demo.app/enum-swift-demo";
+			};
+			name = Debug;
+		};
+		BBEB7B581C1ABB62009E997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "enum-swift-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.enum-swift-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/enum-swift-demo.app/enum-swift-demo";
+			};
+			name = Release;
+		};
+		BBEB7B5A1C1ABB62009E997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "enum-swift-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.enum-swift-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "enum-swift-demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBEB7B5B1C1ABB62009E997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "enum-swift-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.enum-swift-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "enum-swift-demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEB7B261C1ABB62009E997C /* Build configuration list for PBXProject "enum-swift-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB7B511C1ABB62009E997C /* Debug */,
+				BBEB7B521C1ABB62009E997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB7B531C1ABB62009E997C /* Build configuration list for PBXNativeTarget "enum-swift-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB7B541C1ABB62009E997C /* Debug */,
+				BBEB7B551C1ABB62009E997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB7B561C1ABB62009E997C /* Build configuration list for PBXNativeTarget "enum-swift-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB7B571C1ABB62009E997C /* Debug */,
+				BBEB7B581C1ABB62009E997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB7B591C1ABB62009E997C /* Build configuration list for PBXNativeTarget "enum-swift-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB7B5A1C1ABB62009E997C /* Debug */,
+				BBEB7B5B1C1ABB62009E997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEB7B231C1ABB62009E997C /* Project object */;
+}
